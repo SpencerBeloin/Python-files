@@ -1,0 +1,19 @@
+# addinterest3.py
+
+# adds interest of a list of accounts
+
+def addInterest(balance,rate):
+    for i in range(len(balances)):
+        balances[i] = balances[i]*(1+rate)
+
+
+def test():
+    amounts = [1000,2200,800, 360]
+    rate =0.05
+    addInterest(amounts,rate)
+    print(amounts)
+
+
+test()
+
+
